@@ -1,4 +1,4 @@
-issue using rawget/rawset between sm mods.
+issue using rawget/rawset between sm mods (each mod uses a separate env, instead of a shared mod env).
 
 ##### test1 script.lua
 ```lua
