@@ -3,7 +3,7 @@ function OnMsg.ClassesGenerate()
 		globalvar_testa,"\n",
 		rawget(_G,"globalvar_testa"),"\n",
 		rawget(_G,"globalvar_testg"),"\n",
-		rawget(_G,"globalvar_teste"),"\n",
+		PropObjGetProperty(_G,"globalvar_testa")
 	)
 	print(globalvar_testg)
 end
