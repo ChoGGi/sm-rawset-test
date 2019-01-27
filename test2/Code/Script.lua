@@ -4,16 +4,17 @@ function OnMsg.ClassesGenerate()
 		rawget(_G,"globalvar_testa"),"\n",
 		rawget(_G,"globalvar_testg"),"\n",
 		rawget(_G,"globalvar_teste"),"\n",
-		rawget(_ENV,"globalvar_testg"),"\n",
-		rawget(_ENV,"globalvar_teste")
 	)
+	print(globalvar_testg)
 end
 
 --[[
-print returns:
+print 1 returns:
 testa
- testa
- nil
- nil
- nil
+nil
+nil
+nil
+
+print 2 returns:
+Attempt to use an undefined global 'globalvar_testg'
 --]]
